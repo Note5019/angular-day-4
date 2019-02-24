@@ -2,6 +2,12 @@
   <div class="form-group">
     <label>FirstName</label>
     <input type="text" class="form-control" formControlName="firstName">
+    <!-- <div *ngIf="form.controls.firstName.required && form.controls.firstName.touched ">
+      <span>Required</span>
+    </div>
+    <div *ngIf="form.controls.firstName.errors(minlength) && form.controls.firstName.touched ">
+      <span>Min</span>
+    </div> -->
   </div>
   <div class="form-group">
     <label>LastName</label>
